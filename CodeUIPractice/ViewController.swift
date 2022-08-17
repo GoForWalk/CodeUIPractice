@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let vc = KakaoTalkViewController()
+        let vc = MelonSnapkitViewController()
         
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true)
